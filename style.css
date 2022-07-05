@@ -1,7 +1,52 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Designing First Section */
+
+section{
+    display: flex;
+}
+
+.top-banner{
+    /* My Mistake was on images\top-banner.JPG . Actually it would be images/top-banner.JPG */
+    background-image: url(images/top-banner.JPG);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.half-width img{
+    width: 100%;
+    height: 100%;
 }
 
 h1{
     font-size: 50px;
 }
+
+span.my-name-title{
+    color: orange;
+}
+
+/* Designing Hire me Button */
+.link-button{
+    text-decoration: none;
+    height: 150px;
+    width: 300px;
+    padding: 12px;
+    color: white;
+    background-image: linear-gradient(salmon,red, black);
+    font-weight: 700;
+    border-radius: 3px;
+    border-color: yellow;
+}
+
+/********************* First section desinging finished ****************************/
+
