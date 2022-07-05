@@ -41,8 +41,8 @@ span.my-name-title{
     height: 150px;
     width: 300px;
     padding: 12px;
-    color: white;
-    background-image: linear-gradient(salmon,red, black);
+    color: black;
+    background-image: linear-gradient( rgba(248, 114, 114, 0.884), rgba(252, 255, 68, 0.788));
     font-weight: 700;
     border-radius: 3px;
     border-color: yellow;
@@ -50,3 +50,14 @@ span.my-name-title{
 
 /********************* First section desinging finished ****************************/
 
+/* **********Secona Section*************** */
+
+.second_section{
+    margin-top: 150px;
+}
+
+div.section2-div2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
