@@ -1,5 +1,5 @@
 body{
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -64,5 +64,41 @@ div.section2-div2{
 
 /***************Second Section Designing Finished*******/
 
+
+
+
+
+
 /***************Third Section Starts***********/
 
+/* flexible container added */
+/* class half width added */
+
+.third-sec-experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+
+.third-sec-developer-area{
+    box-shadow: 0px 0px 40px 10px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 350px;
+    /* width: 400px; */
+}
+
+#full-stack-developer{
+    border-left: 7px solid rgba(255, 68, 0, 0.705);
+}
+
+#junior-web-developer{
+    border-left: 7px solid blue;
+}
+
+/************ Third section design finished ***********/
+
+footer{
+    text-align: center;
+}
