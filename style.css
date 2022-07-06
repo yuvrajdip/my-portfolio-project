@@ -1,12 +1,12 @@
 body{
-    margin: 0;
+    margin: 0px 0px 100px 0px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 /* Designing First Section */
 
-section{
+.flexible-container{
     display: flex;
 }
 
@@ -31,7 +31,7 @@ h1{
     font-size: 50px;
 }
 
-span.my-name-title{
+.orange-color{
     color: orange;
 }
 
@@ -50,7 +50,7 @@ span.my-name-title{
 
 /********************* First section desinging finished ****************************/
 
-/* **********Secona Section*************** */
+/* **********Second Section*************** */
 
 .second_section{
     margin-top: 150px;
@@ -61,3 +61,8 @@ div.section2-div2{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+/***************Second Section Designing Finished*******/
+
+/***************Third Section Starts***********/
+
